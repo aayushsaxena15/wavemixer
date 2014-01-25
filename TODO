@@ -1,0 +1,3 @@
+->For now wavemixer works for wave file of format (mono, 16KHz, 16-bit PCM),need to make it compaitsable with other formats.
+->Handle Deadlocks
+

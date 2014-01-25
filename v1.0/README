@@ -1,0 +1,34 @@
+
+#################################################################################
+#	Wave Mixer.								#	
+#	A tool that alows you to play around with wave files			#
+#       By Mayank Gupta                         				#
+#       mayankrocks.1993@gmail.com              				#
+#       mayank.g@students.iiit.ac.in               				#
+#################################################################################
+
+#About:
+
+-> Wave Mixer is a tool designed to play with wave file of given format (mono, 16KHz, 16-bit PCM).
+-> With this tool you can change the amplitude,scale the time,shift the time of the wave.You can also revese the wave.
+-> You can mix/modulate upto three waves and alter the properties of the newly generated wave.
+-> You can also record any voice as a wave of format(mono, 16KHz, 16-bit PCM) and alter its  properties too.
+-> Try using it you will have fun.
+
+#To run:
+
+-> python main.py
+
+
+#Required library:
+
+-> wave
+-> pyaudio
+-> struct
+-> PyQt4
+-> gui
+
+#Assumption:
+
+-> Format of wave file : (mono, 16KHz, 16-bit PCM)
+-> When two wave of different length are mixed/modulated , the small wave is appended to itself utill its size become equal to the size of the large wave, after this mixing/modulation is carried out and new wave of size equal two larger wave is generated.
